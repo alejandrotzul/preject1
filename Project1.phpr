@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project app="PHPRunner" version="9.0" build="26849">
+<project app="PHPRunner" version="9.0" build="27012">
 	<tables>
 		<v>
 			<m_arrEventHandlers />
@@ -14940,23 +14940,6 @@ FROM tipodecompra </m_sql>
 					</v>
 				</m_arrTableLabels>
 			</v>
-			<v>
-				<m_strLanguage />
-				<m_arrTableLabels>
-					<v>
-						<m_strTableName />
-						<m_strTableLabel />
-						<m_arrFieldLabels />
-						<m_arrPageTitleLabels />
-					</v>
-					<v>
-						<m_strTableName>asignacionanalista</m_strTableName>
-						<m_strTableLabel>Asignacionanalista</m_strTableLabel>
-						<m_arrFieldLabels />
-						<m_arrPageTitleLabels />
-					</v>
-				</m_arrTableLabels>
-			</v>
 		</m_arrLanguageLabels>
 	</m_ProjectLabels>
 	<CustomLabels />
@@ -21095,7 +21078,7 @@ FROM tipodecompra </m_sql>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text></text>
+				<text>COMPRA XD</text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
