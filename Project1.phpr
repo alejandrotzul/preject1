@@ -13994,7 +13994,7 @@ FROM tipodecompra </m_sql>
 	<ProjectLogo>
 		<v>
 			<Lang>English</Lang>
-			<Text>Projecto de inicio</Text>
+			<Text>inicio</Text>
 		</v>
 	</ProjectLogo>
 	<m_ProjectLabels>
@@ -19806,7 +19806,7 @@ FROM tipodecompra </m_sql>
 			</v>
 			<v>
 				<filename>C:\Users\Administrador\Documents\PHPRunnerProjects\project1Clon\output\styles\OfficeOffice</filename>
-				<source></source>
+				<source />
 			</v>
 			<v>
 				<filename>C:\Users\Administrador\Documents\PHPRunnerProjects\project1Clon\output\templates\insumos_print.htm</filename>
