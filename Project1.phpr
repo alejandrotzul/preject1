@@ -16,7 +16,7 @@
 	apellido,
 	telefono,
 	email
-FROM asignacionanalista </m_strSQL>
+FROM asignacionanalista</m_strSQL>
 			<m_sqlHead>SELECT ID,
 	nombre,
 	apellido,
@@ -1429,7 +1429,7 @@ FROM asignacionanalista </m_strSQL>
 	apellido,
 	telefono,
 	email
-FROM asignacionanalista </m_sql>
+FROM asignacionanalista</m_sql>
 				<m_parsed>1</m_parsed>
 				<type>SQL::Query</type>
 				<m_strHead>SELECT</m_strHead>
@@ -13275,7 +13275,666 @@ FROM tipodecompra </m_sql>
 			<m_arrLanguageLabels />
 		</m_deletedLabels>
 		<m_arrDeletedTables />
-		<dbTables />
+		<dbTables>
+			<v>
+				<schema></schema>
+				<name>asignacionanalista</name>
+				<type>0</type>
+				<dbfields>
+					<dbfield>
+						<name>ID</name>
+						<type>3</type>
+						<typeName>int</typeName>
+						<size>11</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>0</nullable>
+						<autoInc>1</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>nombre</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>apellido</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>telefono</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>email</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+				</dbfields>
+				<dbkeys>
+					<dbkey>ID</dbkey>
+				</dbkeys>
+				<dbfkeys />
+				<pbclean>0</pbclean>
+			</v>
+			<v>
+				<schema></schema>
+				<name>insumos</name>
+				<type>0</type>
+				<dbfields>
+					<dbfield>
+						<name>ID</name>
+						<type>3</type>
+						<typeName>int</typeName>
+						<size>11</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>0</nullable>
+						<autoInc>1</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>renglon</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>codigo insumo</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>nombre</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>caracteristicas</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>nombre de la presentacion</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>cantidad y unidad</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>codigo de presentacion</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+				</dbfields>
+				<dbkeys>
+					<dbkey>ID</dbkey>
+				</dbkeys>
+				<dbfkeys />
+				<pbclean>0</pbclean>
+			</v>
+			<v>
+				<schema></schema>
+				<name>pac</name>
+				<type>0</type>
+				<dbfields>
+					<dbfield>
+						<name>ID</name>
+						<type>3</type>
+						<typeName>int</typeName>
+						<size>11</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>0</nullable>
+						<autoInc>1</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>descripcionProducto</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>unidadesAnuales</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>costoUnitarioPromedio</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>unidadesMensuales</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>programadoMensual</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>disponibleMensual</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>unidadMedida</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>cantidadUnidadMedida</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>mes</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>cuatrimerstre</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>descripcionCuatrimestre</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>solicitante</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>tipoDeCompra</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>renglon</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>codigoSiges</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>codigopresentacion</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+				</dbfields>
+				<dbkeys>
+					<dbkey>ID</dbkey>
+				</dbkeys>
+				<dbfkeys />
+				<pbclean>0</pbclean>
+			</v>
+			<v>
+				<schema></schema>
+				<name>requisiciones</name>
+				<type>0</type>
+				<dbfields>
+					<dbfield>
+						<name>ID</name>
+						<type>3</type>
+						<typeName>int</typeName>
+						<size>11</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>0</nullable>
+						<autoInc>1</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>area</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>jefatura</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>gestionSiges</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>correlativo</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>fechaRequisicion</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>cantidadSolicitada</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>unidadDeMedida</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>descripcion</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>codigoInsumo</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>codigoPresentacion</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>existenciasAlmacen</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+				</dbfields>
+				<dbkeys>
+					<dbkey>ID</dbkey>
+				</dbkeys>
+				<dbfkeys />
+				<pbclean>0</pbclean>
+			</v>
+			<v>
+				<schema></schema>
+				<name>tipodecompra</name>
+				<type>0</type>
+				<dbfields>
+					<dbfield>
+						<name>ID</name>
+						<type>3</type>
+						<typeName>int</typeName>
+						<size>11</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>0</nullable>
+						<autoInc>1</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>fondoRotativo</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>precompra</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+					<dbfield>
+						<name>gestionDeCompra</name>
+						<type>200</type>
+						<typeName>varchar</typeName>
+						<size>50</size>
+						<scale>0</scale>
+						<defaultValue></defaultValue>
+						<nullable>1</nullable>
+						<autoInc>0</autoInc>
+						<charset></charset>
+						<oraSequence></oraSequence>
+						<enumValues />
+					</dbfield>
+				</dbfields>
+				<dbkeys>
+					<dbkey>ID</dbkey>
+				</dbkeys>
+				<dbfkeys />
+				<pbclean>0</pbclean>
+			</v>
+		</dbTables>
 	</DeletedTablesInfo>
 	<m_arrConnections>
 		<v>
@@ -14003,8 +14662,8 @@ FROM tipodecompra </m_sql>
 				<m_strLanguage>English</m_strLanguage>
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -14015,27 +14674,27 @@ FROM tipodecompra </m_sql>
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>apellido</m_strField>
 								<m_strLabel>Apellido</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>telefono</m_strField>
 								<m_strLabel>Telefono</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>email</m_strField>
 								<m_strLabel>Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -14047,42 +14706,42 @@ FROM tipodecompra </m_sql>
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>renglon</m_strField>
 								<m_strLabel>Renglon</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>codigo insumo</m_strField>
 								<m_strLabel>Codigo Insumo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre</m_strField>
 								<m_strLabel>Nombre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>caracteristicas</m_strField>
 								<m_strLabel>Caracteristicas</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>nombre de la presentacion</m_strField>
 								<m_strLabel>nombre de la presentacion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cantidad y unidad</m_strField>
 								<m_strLabel>cantidad y unidad</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>codigo de presentacion</m_strField>
 								<m_strLabel>codigo de presentacion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -14094,87 +14753,87 @@ FROM tipodecompra </m_sql>
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>descripcionProducto</m_strField>
 								<m_strLabel>Descripcion Producto</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidadesAnuales</m_strField>
 								<m_strLabel>Unidades Anuales</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>costoUnitarioPromedio</m_strField>
 								<m_strLabel>Costo Unitario Promedio</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidadesMensuales</m_strField>
 								<m_strLabel>Unidades Mensuales</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>programadoMensual</m_strField>
 								<m_strLabel>Programado Mensual</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>disponibleMensual</m_strField>
 								<m_strLabel>Disponible Mensual</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidadMedida</m_strField>
 								<m_strLabel>Unidad Medida</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cantidadUnidadMedida</m_strField>
 								<m_strLabel>Cantidad Unidad Medida</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>mes</m_strField>
 								<m_strLabel>Mes</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cuatrimerstre</m_strField>
 								<m_strLabel>Cuatrimerstre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>descripcionCuatrimestre</m_strField>
 								<m_strLabel>Descripcion Cuatrimestre</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>solicitante</m_strField>
 								<m_strLabel>Solicitante</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>tipoDeCompra</m_strField>
 								<m_strLabel>Tipo De Compra</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>renglon</m_strField>
 								<m_strLabel>Renglon</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>codigoSiges</m_strField>
 								<m_strLabel>Codigo Siges</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>codigopresentacion</m_strField>
 								<m_strLabel>Codigopresentacion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -14186,62 +14845,62 @@ FROM tipodecompra </m_sql>
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>area</m_strField>
 								<m_strLabel>Area</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>jefatura</m_strField>
 								<m_strLabel>Jefatura</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>gestionSiges</m_strField>
 								<m_strLabel>Gestion Siges</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>correlativo</m_strField>
 								<m_strLabel>Correlativo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fechaRequisicion</m_strField>
 								<m_strLabel>Fecha Requisicion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>cantidadSolicitada</m_strField>
 								<m_strLabel>Cantidad Solicitada</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>unidadDeMedida</m_strField>
 								<m_strLabel>Unidad De Medida</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>descripcion</m_strField>
 								<m_strLabel>Descripcion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>codigoInsumo</m_strField>
 								<m_strLabel>Codigo Insumo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>codigoPresentacion</m_strField>
 								<m_strLabel>Codigo Presentacion</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>existenciasAlmacen</m_strField>
 								<m_strLabel>Existencias Almacen</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -14253,40 +14912,40 @@ FROM tipodecompra </m_sql>
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>fondoRotativo</m_strField>
 								<m_strLabel>Fondo Rotativo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>precompra</m_strField>
 								<m_strLabel>Precompra</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>gestionDeCompra</m_strField>
 								<m_strLabel>Gestion De Compra</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
 					</v>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
 				</m_arrTableLabels>
 			</v>
 			<v>
-				<m_strLanguage></m_strLanguage>
+				<m_strLanguage />
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -14339,8 +14998,8 @@ FROM tipodecompra </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>42223664</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30592616</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>704569376</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30592644</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -16870,7 +17529,7 @@ FROM tipodecompra </m_sql>
 			</v>
 			<v>
 				<filename>C:\Users\Administrador\Documents\PHPRunnerProjects\Project1\output\styles\OfficeOffice</filename>
-				<source />
+				<source></source>
 			</v>
 			<v>
 				<filename>C:\Users\Administrador\Documents\PHPRunnerProjects\Project1\output\templates\bsmenu_horiz_preview.htm</filename>
@@ -20182,7 +20841,7 @@ FROM tipodecompra </m_sql>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRConnectionID />
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>5</m_projectBuildNumber>
+	<m_projectBuildNumber>8</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
@@ -20196,7 +20855,7 @@ FROM tipodecompra </m_sql>
 	<m_nDefaultLastYearFactor>10</m_nDefaultLastYearFactor>
 	<m_bBuildMobile>0</m_bBuildMobile>
 	<m_bDisplayDesktop>0</m_bDisplayDesktop>
-	<m_projectCRC>-406853702</m_projectCRC>
+	<m_projectCRC>1682072650</m_projectCRC>
 	<viewPluginsWithJS />
 	<m_projectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391C}</m_projectGUID>
 	<m_EventsCSProjectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391D}</m_EventsCSProjectGUID>
@@ -20220,26 +20879,26 @@ FROM tipodecompra </m_sql>
 						<nameType>Text</nameType>
 					</name>
 					<comments>
-						<text />
+						<text></text>
 						<nameType>Text</nameType>
 					</comments>
 					<id>1</id>
 					<parent>0</parent>
-					<style />
-					<href />
-					<params />
-					<table />
-					<iconName />
+					<style></style>
+					<href></href>
+					<params></params>
+					<table></table>
+					<iconName></iconName>
 					<iconType>0</iconType>
 					<type>Group</type>
 					<linkType>None</linkType>
 					<pageType>List</pageType>
 					<openType>None</openType>
-					<color />
+					<color></color>
 				</MenuNode>
 				<MenuNode>
 					<name>
-						<text />
+						<text></text>
 						<nameType>Text</nameType>
 					</name>
 					<comments>
@@ -20248,9 +20907,9 @@ FROM tipodecompra </m_sql>
 					</comments>
 					<id>2</id>
 					<parent>1</parent>
-					<style />
+					<style></style>
 					<href>mypage.htm</href>
-					<params />
+					<params></params>
 					<table>asignacionanalista</table>
 					<iconName>glyphicon-calendar</iconName>
 					<iconType>2</iconType>
@@ -20259,98 +20918,6 @@ FROM tipodecompra </m_sql>
 					<pageType>List</pageType>
 					<openType>None</openType>
 					<color>E67349</color>
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text>Insumos description</text>
-						<nameType>Text</nameType>
-					</comments>
-					<id>3</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>insumos</table>
-					<iconName>glyphicon-fire</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color>6DA5C8</color>
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text>Pac description</text>
-						<nameType>Text</nameType>
-					</comments>
-					<id>4</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>pac</table>
-					<iconName>glyphicon-headphones</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color>CFAE83</color>
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text />
-						<nameType>Text</nameType>
-					</comments>
-					<id>5</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>requisiciones</table>
-					<iconName>glyphicon-headphones</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color />
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text />
-						<nameType>Text</nameType>
-					</comments>
-					<id>6</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>tipodecompra</table>
-					<iconName>glyphicon-fire</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color />
 				</MenuNode>
 			</MenuNodes>
 			<m_strMenuName>welcome_page</m_strMenuName>
@@ -20409,118 +20976,118 @@ FROM tipodecompra </m_sql>
 	<MenuNodes>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>1</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>asignacionanalista</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>2</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>insumos</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>3</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>pac</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>4</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>requisiciones</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>5</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>tipodecompra</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 	</MenuNodes>
 	<m_strDefaultConnID>correspondencia_at_localhost</m_strDefaultConnID>
