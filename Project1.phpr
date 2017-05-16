@@ -14653,7 +14653,7 @@ FROM tipodecompra </m_sql>
 	<ProjectLogo>
 		<v>
 			<Lang>English</Lang>
-			<Text>Projecto de inicio</Text>
+			<Text>inicio</Text>
 		</v>
 	</ProjectLogo>
 	<m_ProjectLabels>
@@ -14998,8 +14998,8 @@ FROM tipodecompra </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>596486672</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30592643</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>704569376</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30592644</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -20841,7 +20841,7 @@ FROM tipodecompra </m_sql>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRConnectionID />
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>7</m_projectBuildNumber>
+	<m_projectBuildNumber>8</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
@@ -20855,7 +20855,7 @@ FROM tipodecompra </m_sql>
 	<m_nDefaultLastYearFactor>10</m_nDefaultLastYearFactor>
 	<m_bBuildMobile>0</m_bBuildMobile>
 	<m_bDisplayDesktop>0</m_bDisplayDesktop>
-	<m_projectCRC>-1333940102</m_projectCRC>
+	<m_projectCRC>1682072650</m_projectCRC>
 	<viewPluginsWithJS />
 	<m_projectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391C}</m_projectGUID>
 	<m_EventsCSProjectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391D}</m_EventsCSProjectGUID>
@@ -20879,26 +20879,26 @@ FROM tipodecompra </m_sql>
 						<nameType>Text</nameType>
 					</name>
 					<comments>
-						<text />
+						<text></text>
 						<nameType>Text</nameType>
 					</comments>
 					<id>1</id>
 					<parent>0</parent>
-					<style />
-					<href />
-					<params />
-					<table />
-					<iconName />
+					<style></style>
+					<href></href>
+					<params></params>
+					<table></table>
+					<iconName></iconName>
 					<iconType>0</iconType>
 					<type>Group</type>
 					<linkType>None</linkType>
 					<pageType>List</pageType>
 					<openType>None</openType>
-					<color />
+					<color></color>
 				</MenuNode>
 				<MenuNode>
 					<name>
-						<text />
+						<text></text>
 						<nameType>Text</nameType>
 					</name>
 					<comments>
@@ -20907,9 +20907,9 @@ FROM tipodecompra </m_sql>
 					</comments>
 					<id>2</id>
 					<parent>1</parent>
-					<style />
+					<style></style>
 					<href>mypage.htm</href>
-					<params />
+					<params></params>
 					<table>asignacionanalista</table>
 					<iconName>glyphicon-calendar</iconName>
 					<iconType>2</iconType>
@@ -20918,98 +20918,6 @@ FROM tipodecompra </m_sql>
 					<pageType>List</pageType>
 					<openType>None</openType>
 					<color>E67349</color>
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text>Insumos description</text>
-						<nameType>Text</nameType>
-					</comments>
-					<id>3</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>insumos</table>
-					<iconName>glyphicon-fire</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color>6DA5C8</color>
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text>Pac description</text>
-						<nameType>Text</nameType>
-					</comments>
-					<id>4</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>pac</table>
-					<iconName>glyphicon-headphones</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color>CFAE83</color>
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text />
-						<nameType>Text</nameType>
-					</comments>
-					<id>5</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>requisiciones</table>
-					<iconName>glyphicon-headphones</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color />
-				</MenuNode>
-				<MenuNode>
-					<name>
-						<text />
-						<nameType>Text</nameType>
-					</name>
-					<comments>
-						<text />
-						<nameType>Text</nameType>
-					</comments>
-					<id>6</id>
-					<parent>1</parent>
-					<style />
-					<href>mypage.htm</href>
-					<params />
-					<table>tipodecompra</table>
-					<iconName>glyphicon-fire</iconName>
-					<iconType>2</iconType>
-					<type>Leaf</type>
-					<linkType>Internal</linkType>
-					<pageType>List</pageType>
-					<openType>None</openType>
-					<color />
 				</MenuNode>
 			</MenuNodes>
 			<m_strMenuName>welcome_page</m_strMenuName>
@@ -21068,118 +20976,118 @@ FROM tipodecompra </m_sql>
 	<MenuNodes>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>1</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>asignacionanalista</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>2</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>insumos</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>3</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>pac</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>4</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>requisiciones</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 		<MenuNode>
 			<name>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</name>
 			<comments>
-				<text />
+				<text></text>
 				<nameType>Text</nameType>
 			</comments>
 			<id>5</id>
 			<parent>0</parent>
-			<style />
+			<style></style>
 			<href>mypage.htm</href>
-			<params />
+			<params></params>
 			<table>tipodecompra</table>
-			<iconName />
+			<iconName></iconName>
 			<iconType>0</iconType>
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
-			<color />
+			<color></color>
 		</MenuNode>
 	</MenuNodes>
 	<m_strDefaultConnID>correspondencia_at_localhost</m_strDefaultConnID>
