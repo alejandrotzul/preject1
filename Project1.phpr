@@ -23,10 +23,10 @@ FROM asignacionanalista</m_strSQL>
 	telefono,
 	email</m_sqlHead>
 			<m_sqlFrom>FROM asignacionanalista</m_sqlFrom>
-			<m_sqlWhere></m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlWhere />
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy></m_strOrderBy>
+			<m_strOrderBy />
 			<m_nType>0</m_nType>
 			<m_strConnectionID>correspondencia_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>asignacionanalista</m_strOriginalTable>
@@ -154,7 +154,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_strTable>asignacionanalista</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -186,7 +186,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -373,7 +373,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_strTable>asignacionanalista</m_strTable>
 					<m_strName>nombre</m_strName>
 					<m_strSQLExpression>nombre</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -405,7 +405,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -592,7 +592,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_strTable>asignacionanalista</m_strTable>
 					<m_strName>apellido</m_strName>
 					<m_strSQLExpression>apellido</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -624,7 +624,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -811,7 +811,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_strTable>asignacionanalista</m_strTable>
 					<m_strName>telefono</m_strName>
 					<m_strSQLExpression>telefono</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -843,7 +843,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -1030,7 +1030,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_strTable>asignacionanalista</m_strTable>
 					<m_strName>email</m_strName>
 					<m_strSQLExpression>email</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -1062,7 +1062,7 @@ FROM asignacionanalista</m_strSQL>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName></m_strOraSequenceName>
+					<m_strOraSequenceName />
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -1381,7 +1381,7 @@ FROM asignacionanalista</m_strSQL>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>1</m_nPartialBuildState>
+			<m_nPartialBuildState>0</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -1439,14 +1439,14 @@ FROM asignacionanalista</m_sql>
 	telefono,
 	email</m_strFieldList>
 				<m_strFrom>FROM asignacionanalista</m_strFrom>
-				<m_strWhere></m_strWhere>
-				<m_strOrderBy></m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strWhere />
+				<m_strOrderBy />
+				<m_strTail />
 				<m_where>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -1455,10 +1455,10 @@ FROM asignacionanalista</m_sql>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -1471,9 +1471,9 @@ FROM asignacionanalista</m_sql>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>asignacionanalista</m_strTable>
@@ -1484,9 +1484,9 @@ FROM asignacionanalista</m_sql>
 						<m_sql>nombre</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>asignacionanalista</m_strTable>
@@ -1497,9 +1497,9 @@ FROM asignacionanalista</m_sql>
 						<m_sql>apellido</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>asignacionanalista</m_strTable>
@@ -1510,9 +1510,9 @@ FROM asignacionanalista</m_sql>
 						<m_sql>telefono</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>asignacionanalista</m_strTable>
@@ -1523,9 +1523,9 @@ FROM asignacionanalista</m_sql>
 						<m_sql>email</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>asignacionanalista</m_strTable>
@@ -1540,7 +1540,7 @@ FROM asignacionanalista</m_sql>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>asignacionanalista</m_strName>
@@ -1552,12 +1552,12 @@ FROM asignacionanalista</m_sql>
 								<val>email</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -14998,8 +14998,8 @@ FROM tipodecompra </m_sql>
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>-1266920976</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30600080</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>596486672</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30592643</m_nBuildTimeHigh>
 		<nonProcessFiles />
 		<m_bCompressJs>1</m_bCompressJs>
 		<builtFiles>
@@ -20841,7 +20841,7 @@ FROM tipodecompra </m_sql>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRConnectionID />
 	<m_strWRAdminPassword>webreports</m_strWRAdminPassword>
-	<m_projectBuildNumber>6</m_projectBuildNumber>
+	<m_projectBuildNumber>7</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
@@ -20855,7 +20855,7 @@ FROM tipodecompra </m_sql>
 	<m_nDefaultLastYearFactor>10</m_nDefaultLastYearFactor>
 	<m_bBuildMobile>0</m_bBuildMobile>
 	<m_bDisplayDesktop>0</m_bDisplayDesktop>
-	<m_projectCRC>764751251</m_projectCRC>
+	<m_projectCRC>-1333940102</m_projectCRC>
 	<viewPluginsWithJS />
 	<m_projectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391C}</m_projectGUID>
 	<m_EventsCSProjectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391D}</m_EventsCSProjectGUID>
