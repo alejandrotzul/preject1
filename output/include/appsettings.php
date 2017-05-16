@@ -413,7 +413,7 @@ $globalSettings["LandingPage"] = "";
 $globalSettings["LandingURL"] = "";
 
 $globalSettings["ProjectLogo"] = array();
-$globalSettings["ProjectLogo"]["English"] = "Project1";
+$globalSettings["ProjectLogo"]["English"] = "Projecto de inicio";
 
 
 $globalSettings["apiGoogleMapsCode"] = "";
