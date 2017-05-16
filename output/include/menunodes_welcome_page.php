@@ -7,7 +7,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 
 	$menuNode = array();
 	$menuNode["id"] = "1";
-	$menuNode["name"] = "Project1";
+	$menuNode["name"] = "begin";
 	$menuNode["href"] = "";
 	$menuNode["type"] = "Group";
 	$menuNode["table"] = "";
@@ -24,7 +24,7 @@ function getMenuNodes_welcome_page($menuNodesObject)
 
 			$menuNode["color"] = "";
 	
-	$menuNode["title"] = "Project1";
+	$menuNode["title"] = "begin";
 
 
 
