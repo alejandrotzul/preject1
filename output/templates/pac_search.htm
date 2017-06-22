@@ -1,0 +1,441 @@
+<!doctype html><p align=center><font size=+1 color=red>This website was created by evaluation version of PHPRunner Trial.</font></p>
+<p align=center><font size=+1 color=red>This warning message will not appear on website created by a paid-for version of PHPRunner Trial.</font></p>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_searchpage}
+<div {$searchpage_chiddenattr} data-pageid="{$pageid}" data-container="searchpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN searchheader}
+	<h2 {$bssearchheader_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchheader" >{$pagetitlelabel pac search}</h2>
+
+{END searchheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_searchpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$bssearchfields_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchfields" class="form-horizontal" role="form">
+<div class="container">
+	<div class="form-group">
+		<div class="col-md-12" >
+			&nbsp;
+		</div>
+	</div>
+</div>
+	{BEGIN ID_fieldblock}		
+	<div class="container {$fielddispclass_ID}" data-fieldname="ID">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac ID}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_ID}
+			</div>
+			<div class="col-md-4" >
+				{$ID_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$ID_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END ID_fieldblock}
+	{BEGIN descripcionProducto_fieldblock}		
+	<div class="container {$fielddispclass_descripcionProducto}" data-fieldname="descripcionProducto">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac descripcionProducto}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_descripcionProducto}
+			</div>
+			<div class="col-md-4" >
+				{$descripcionProducto_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$descripcionProducto_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END descripcionProducto_fieldblock}
+	{BEGIN unidadesAnuales_fieldblock}		
+	<div class="container {$fielddispclass_unidadesAnuales}" data-fieldname="unidadesAnuales">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac unidadesAnuales}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_unidadesAnuales}
+			</div>
+			<div class="col-md-4" >
+				{$unidadesAnuales_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$unidadesAnuales_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END unidadesAnuales_fieldblock}
+	{BEGIN costoUnitarioPromedio_fieldblock}		
+	<div class="container {$fielddispclass_costoUnitarioPromedio}" data-fieldname="costoUnitarioPromedio">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac costoUnitarioPromedio}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_costoUnitarioPromedio}
+			</div>
+			<div class="col-md-4" >
+				{$costoUnitarioPromedio_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$costoUnitarioPromedio_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END costoUnitarioPromedio_fieldblock}
+	{BEGIN unidadesMensuales_fieldblock}		
+	<div class="container {$fielddispclass_unidadesMensuales}" data-fieldname="unidadesMensuales">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac unidadesMensuales}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_unidadesMensuales}
+			</div>
+			<div class="col-md-4" >
+				{$unidadesMensuales_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$unidadesMensuales_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END unidadesMensuales_fieldblock}
+	{BEGIN programadoMensual_fieldblock}		
+	<div class="container {$fielddispclass_programadoMensual}" data-fieldname="programadoMensual">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac programadoMensual}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_programadoMensual}
+			</div>
+			<div class="col-md-4" >
+				{$programadoMensual_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$programadoMensual_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END programadoMensual_fieldblock}
+	{BEGIN disponibleMensual_fieldblock}		
+	<div class="container {$fielddispclass_disponibleMensual}" data-fieldname="disponibleMensual">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac disponibleMensual}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_disponibleMensual}
+			</div>
+			<div class="col-md-4" >
+				{$disponibleMensual_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$disponibleMensual_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END disponibleMensual_fieldblock}
+	{BEGIN unidadMedida_fieldblock}		
+	<div class="container {$fielddispclass_unidadMedida}" data-fieldname="unidadMedida">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac unidadMedida}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_unidadMedida}
+			</div>
+			<div class="col-md-4" >
+				{$unidadMedida_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$unidadMedida_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END unidadMedida_fieldblock}
+	{BEGIN cantidadUnidadMedida_fieldblock}		
+	<div class="container {$fielddispclass_cantidadUnidadMedida}" data-fieldname="cantidadUnidadMedida">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac cantidadUnidadMedida}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_cantidadUnidadMedida}
+			</div>
+			<div class="col-md-4" >
+				{$cantidadUnidadMedida_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$cantidadUnidadMedida_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END cantidadUnidadMedida_fieldblock}
+	{BEGIN mes_fieldblock}		
+	<div class="container {$fielddispclass_mes}" data-fieldname="mes">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac mes}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_mes}
+			</div>
+			<div class="col-md-4" >
+				{$mes_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$mes_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END mes_fieldblock}
+	{BEGIN cuatrimerstre_fieldblock}		
+	<div class="container {$fielddispclass_cuatrimerstre}" data-fieldname="cuatrimerstre">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac cuatrimerstre}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_cuatrimerstre}
+			</div>
+			<div class="col-md-4" >
+				{$cuatrimerstre_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$cuatrimerstre_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END cuatrimerstre_fieldblock}
+	{BEGIN descripcionCuatrimestre_fieldblock}		
+	<div class="container {$fielddispclass_descripcionCuatrimestre}" data-fieldname="descripcionCuatrimestre">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac descripcionCuatrimestre}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_descripcionCuatrimestre}
+			</div>
+			<div class="col-md-4" >
+				{$descripcionCuatrimestre_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$descripcionCuatrimestre_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END descripcionCuatrimestre_fieldblock}
+	{BEGIN solicitante_fieldblock}		
+	<div class="container {$fielddispclass_solicitante}" data-fieldname="solicitante">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac solicitante}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_solicitante}
+			</div>
+			<div class="col-md-4" >
+				{$solicitante_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$solicitante_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END solicitante_fieldblock}
+	{BEGIN tipoDeCompra_fieldblock}		
+	<div class="container {$fielddispclass_tipoDeCompra}" data-fieldname="tipoDeCompra">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac tipoDeCompra}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_tipoDeCompra}
+			</div>
+			<div class="col-md-4" >
+				{$tipoDeCompra_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$tipoDeCompra_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END tipoDeCompra_fieldblock}
+	{BEGIN renglon_fieldblock}		
+	<div class="container {$fielddispclass_renglon}" data-fieldname="renglon">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac renglon}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_renglon}
+			</div>
+			<div class="col-md-4" >
+				{$renglon_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$renglon_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END renglon_fieldblock}
+	{BEGIN codigoSiges_fieldblock}		
+	<div class="container {$fielddispclass_codigoSiges}" data-fieldname="codigoSiges">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac codigoSiges}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_codigoSiges}
+			</div>
+			<div class="col-md-4" >
+				{$codigoSiges_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$codigoSiges_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END codigoSiges_fieldblock}
+	{BEGIN codigopresentacion_fieldblock}		
+	<div class="container {$fielddispclass_codigopresentacion}" data-fieldname="codigopresentacion">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label pac codigopresentacion}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_codigopresentacion}
+			</div>
+			<div class="col-md-4" >
+				{$codigopresentacion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$codigopresentacion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END codigopresentacion_fieldblock}
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-3 col-md-offset-4"> 
+
+{BEGIN searchbuttons}
+{BEGIN search_button}
+<button class="btn btn-primary" {$searchbutton_attrs}>Search</button>
+{END search_button} 
+{BEGIN reset_button}
+<button class="btn btn-default" {$resetbutton_attrs}>Reset</button>
+{END reset_button}
+{BEGIN back_button}
+<button class="btn btn-default" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{END searchbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

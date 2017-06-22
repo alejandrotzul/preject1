@@ -1,0 +1,379 @@
+<!doctype html><p align=center><font size=+1 color=red>This website was created by evaluation version of PHPRunner Trial.</font></p>
+<p align=center><font size=+1 color=red>This warning message will not appear on website created by a paid-for version of PHPRunner Trial.</font></p>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-add" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_editpage}
+<div {$editpage_chiddenattr} data-pageid="{$pageid}" data-container="editpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-9 col-md-offset-3"> 
+
+{BEGIN addheader}
+	<h2 {$addheader_hiddenattr} data-pageid="{$pageid}" data-brick="addheader" >{$pagetitlelabel requisiciones add}</h2>
+
+{END addheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+
+
+{BEGIN container_message}
+<div {$message_chiddenattr} data-pageid="{$pageid}" data-container="message" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN message_block}
+<div {$message_hiddenattr} data-pageid="{$pageid}" data-brick="message" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN back_button}
+		<button class="btn btn-sm btn-default" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>View</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>Edit</button>
+{END edit_page_button}
+</div>
+</div>
+
+{END message_block}
+
+
+
+</div>
+{END container_message}
+
+
+
+
+
+
+
+</div>
+{END container_editpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$addfields_hiddenattr} data-pageid="{$pageid}" data-brick="addfields" class="form-horizontal" role="form">
+			{BEGIN area_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_area}" data-fieldname="area" data-signal-error-for="area{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_area}">
+		{BEGIN area_label}{$label requisiciones area}{END area_label}
+	</label>
+	<div class="col-md-6" >
+		{$area_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="area">
+		<div class="text-muted" >
+		{$tooltip requisiciones area}
+		</div>
+	</div>
+</div>
+</div>
+{END area_fieldblock}
+
+			{BEGIN jefatura_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_jefatura}" data-fieldname="jefatura" data-signal-error-for="jefatura{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_jefatura}">
+		{BEGIN jefatura_label}{$label requisiciones jefatura}{END jefatura_label}
+	</label>
+	<div class="col-md-6" >
+		{$jefatura_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="jefatura">
+		<div class="text-muted" >
+		{$tooltip requisiciones jefatura}
+		</div>
+	</div>
+</div>
+</div>
+{END jefatura_fieldblock}
+
+			{BEGIN gestionSiges_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_gestionSiges}" data-fieldname="gestionSiges" data-signal-error-for="gestionSiges{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_gestionSiges}">
+		{BEGIN gestionSiges_label}{$label requisiciones gestionSiges}{END gestionSiges_label}
+	</label>
+	<div class="col-md-6" >
+		{$gestionSiges_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="gestionSiges">
+		<div class="text-muted" >
+		{$tooltip requisiciones gestionSiges}
+		</div>
+	</div>
+</div>
+</div>
+{END gestionSiges_fieldblock}
+
+			{BEGIN correlativo_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_correlativo}" data-fieldname="correlativo" data-signal-error-for="correlativo{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_correlativo}">
+		{BEGIN correlativo_label}{$label requisiciones correlativo}{END correlativo_label}
+	</label>
+	<div class="col-md-6" >
+		{$correlativo_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="correlativo">
+		<div class="text-muted" >
+		{$tooltip requisiciones correlativo}
+		</div>
+	</div>
+</div>
+</div>
+{END correlativo_fieldblock}
+
+			{BEGIN fechaRequisicion_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_fechaRequisicion}" data-fieldname="fechaRequisicion" data-signal-error-for="fechaRequisicion{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_fechaRequisicion}">
+		{BEGIN fechaRequisicion_label}{$label requisiciones fechaRequisicion}{END fechaRequisicion_label}
+	</label>
+	<div class="col-md-6" >
+		{$fechaRequisicion_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="fechaRequisicion">
+		<div class="text-muted" >
+		{$tooltip requisiciones fechaRequisicion}
+		</div>
+	</div>
+</div>
+</div>
+{END fechaRequisicion_fieldblock}
+
+			{BEGIN cantidadSolicitada_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_cantidadSolicitada}" data-fieldname="cantidadSolicitada" data-signal-error-for="cantidadSolicitada{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_cantidadSolicitada}">
+		{BEGIN cantidadSolicitada_label}{$label requisiciones cantidadSolicitada}{END cantidadSolicitada_label}
+	</label>
+	<div class="col-md-6" >
+		{$cantidadSolicitada_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="cantidadSolicitada">
+		<div class="text-muted" >
+		{$tooltip requisiciones cantidadSolicitada}
+		</div>
+	</div>
+</div>
+</div>
+{END cantidadSolicitada_fieldblock}
+
+			{BEGIN unidadDeMedida_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_unidadDeMedida}" data-fieldname="unidadDeMedida" data-signal-error-for="unidadDeMedida{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_unidadDeMedida}">
+		{BEGIN unidadDeMedida_label}{$label requisiciones unidadDeMedida}{END unidadDeMedida_label}
+	</label>
+	<div class="col-md-6" >
+		{$unidadDeMedida_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="unidadDeMedida">
+		<div class="text-muted" >
+		{$tooltip requisiciones unidadDeMedida}
+		</div>
+	</div>
+</div>
+</div>
+{END unidadDeMedida_fieldblock}
+
+			{BEGIN descripcion_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_descripcion}" data-fieldname="descripcion" data-signal-error-for="descripcion{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_descripcion}">
+		{BEGIN descripcion_label}{$label requisiciones descripcion}{END descripcion_label}
+	</label>
+	<div class="col-md-6" >
+		{$descripcion_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="descripcion">
+		<div class="text-muted" >
+		{$tooltip requisiciones descripcion}
+		</div>
+	</div>
+</div>
+</div>
+{END descripcion_fieldblock}
+
+			{BEGIN codigoInsumo_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_codigoInsumo}" data-fieldname="codigoInsumo" data-signal-error-for="codigoInsumo{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_codigoInsumo}">
+		{BEGIN codigoInsumo_label}{$label requisiciones codigoInsumo}{END codigoInsumo_label}
+	</label>
+	<div class="col-md-6" >
+		{$codigoInsumo_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="codigoInsumo">
+		<div class="text-muted" >
+		{$tooltip requisiciones codigoInsumo}
+		</div>
+	</div>
+</div>
+</div>
+{END codigoInsumo_fieldblock}
+
+			{BEGIN codigoPresentacion_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_codigoPresentacion}" data-fieldname="codigoPresentacion" data-signal-error-for="codigoPresentacion{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_codigoPresentacion}">
+		{BEGIN codigoPresentacion_label}{$label requisiciones codigoPresentacion}{END codigoPresentacion_label}
+	</label>
+	<div class="col-md-6" >
+		{$codigoPresentacion_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="codigoPresentacion">
+		<div class="text-muted" >
+		{$tooltip requisiciones codigoPresentacion}
+		</div>
+	</div>
+</div>
+</div>
+{END codigoPresentacion_fieldblock}
+
+			{BEGIN existenciasAlmacen_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_existenciasAlmacen}" data-fieldname="existenciasAlmacen" data-signal-error-for="existenciasAlmacen{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_existenciasAlmacen}">
+		{BEGIN existenciasAlmacen_label}{$label requisiciones existenciasAlmacen}{END existenciasAlmacen_label}
+	</label>
+	<div class="col-md-6" >
+		{$existenciasAlmacen_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="existenciasAlmacen">
+		<div class="text-muted" >
+		{$tooltip requisiciones existenciasAlmacen}
+		</div>
+	</div>
+</div>
+</div>
+{END existenciasAlmacen_fieldblock}
+
+
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_buttons}
+<div {$buttons_chiddenattr} data-pageid="{$pageid}" data-container="buttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-3 col-md-offset-3"> 
+
+{BEGIN addbuttons}
+	{BEGIN save_button}
+	<button class="btn btn-primary" {$savebutton_attrs}>Save</button>
+	{END save_button}
+	{BEGIN reset_button}
+	<button class="btn btn-default" id="resetButton{$id}">Reset</button>
+	{END reset_button}
+	{BEGIN back_button}
+		<button class="btn btn-default" id="backButton{$id}">Back to list</button>
+	{END back_button}
+	{BEGIN cancel_button}
+	<a href="#" class="btn btn-default" id="cancelButton{$id}">Cancel</a>
+	{END cancel_button}
+
+{END addbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_buttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

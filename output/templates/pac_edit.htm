@@ -1,0 +1,507 @@
+<!doctype html><p align=center><font size=+1 color=red>This website was created by evaluation version of PHPRunner Trial.</font></p>
+<p align=center><font size=+1 color=red>This warning message will not appear on website created by a paid-for version of PHPRunner Trial.</font></p>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_editpage}
+<div {$editpage_chiddenattr} data-pageid="{$pageid}" data-container="editpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-9 col-md-offset-3"> 
+
+{BEGIN editheader}
+	<h2 {$editheader_hiddenattr} data-pageid="{$pageid}" data-brick="editheader" >{$pagetitlelabel pac edit}</h2>
+
+{END editheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+
+
+{BEGIN container_message}
+<div {$message_chiddenattr} data-pageid="{$pageid}" data-container="message" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN message_block}
+<div {$message_hiddenattr} data-pageid="{$pageid}" data-brick="message" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN back_button}
+		<button class="btn btn-sm btn-default" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>View</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>Edit</button>
+{END edit_page_button}
+</div>
+</div>
+
+{END message_block}
+
+
+
+</div>
+{END container_message}
+
+
+
+
+
+
+
+</div>
+{END container_editpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$editfields_hiddenattr} data-pageid="{$pageid}" data-brick="editfields" class="form-horizontal" role="form">
+
+
+
+			{BEGIN descripcionProducto_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_descripcionProducto}" data-fieldname="descripcionProducto" data-signal-error-for="descripcionProducto{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_descripcionProducto}">
+		{BEGIN descripcionProducto_label}{$label pac descripcionProducto}{END descripcionProducto_label}
+	</label>
+	<div class="col-md-6" >
+		{$descripcionProducto_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="descripcionProducto">
+		<div class="text-muted" >
+		{$tooltip pac descripcionProducto}
+		</div>
+	</div>
+</div>
+</div>
+{END descripcionProducto_fieldblock}
+
+			{BEGIN unidadesAnuales_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_unidadesAnuales}" data-fieldname="unidadesAnuales" data-signal-error-for="unidadesAnuales{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_unidadesAnuales}">
+		{BEGIN unidadesAnuales_label}{$label pac unidadesAnuales}{END unidadesAnuales_label}
+	</label>
+	<div class="col-md-6" >
+		{$unidadesAnuales_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="unidadesAnuales">
+		<div class="text-muted" >
+		{$tooltip pac unidadesAnuales}
+		</div>
+	</div>
+</div>
+</div>
+{END unidadesAnuales_fieldblock}
+
+			{BEGIN costoUnitarioPromedio_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_costoUnitarioPromedio}" data-fieldname="costoUnitarioPromedio" data-signal-error-for="costoUnitarioPromedio{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_costoUnitarioPromedio}">
+		{BEGIN costoUnitarioPromedio_label}{$label pac costoUnitarioPromedio}{END costoUnitarioPromedio_label}
+	</label>
+	<div class="col-md-6" >
+		{$costoUnitarioPromedio_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="costoUnitarioPromedio">
+		<div class="text-muted" >
+		{$tooltip pac costoUnitarioPromedio}
+		</div>
+	</div>
+</div>
+</div>
+{END costoUnitarioPromedio_fieldblock}
+
+			{BEGIN unidadesMensuales_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_unidadesMensuales}" data-fieldname="unidadesMensuales" data-signal-error-for="unidadesMensuales{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_unidadesMensuales}">
+		{BEGIN unidadesMensuales_label}{$label pac unidadesMensuales}{END unidadesMensuales_label}
+	</label>
+	<div class="col-md-6" >
+		{$unidadesMensuales_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="unidadesMensuales">
+		<div class="text-muted" >
+		{$tooltip pac unidadesMensuales}
+		</div>
+	</div>
+</div>
+</div>
+{END unidadesMensuales_fieldblock}
+
+			{BEGIN programadoMensual_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_programadoMensual}" data-fieldname="programadoMensual" data-signal-error-for="programadoMensual{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_programadoMensual}">
+		{BEGIN programadoMensual_label}{$label pac programadoMensual}{END programadoMensual_label}
+	</label>
+	<div class="col-md-6" >
+		{$programadoMensual_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="programadoMensual">
+		<div class="text-muted" >
+		{$tooltip pac programadoMensual}
+		</div>
+	</div>
+</div>
+</div>
+{END programadoMensual_fieldblock}
+
+			{BEGIN disponibleMensual_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_disponibleMensual}" data-fieldname="disponibleMensual" data-signal-error-for="disponibleMensual{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_disponibleMensual}">
+		{BEGIN disponibleMensual_label}{$label pac disponibleMensual}{END disponibleMensual_label}
+	</label>
+	<div class="col-md-6" >
+		{$disponibleMensual_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="disponibleMensual">
+		<div class="text-muted" >
+		{$tooltip pac disponibleMensual}
+		</div>
+	</div>
+</div>
+</div>
+{END disponibleMensual_fieldblock}
+
+			{BEGIN unidadMedida_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_unidadMedida}" data-fieldname="unidadMedida" data-signal-error-for="unidadMedida{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_unidadMedida}">
+		{BEGIN unidadMedida_label}{$label pac unidadMedida}{END unidadMedida_label}
+	</label>
+	<div class="col-md-6" >
+		{$unidadMedida_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="unidadMedida">
+		<div class="text-muted" >
+		{$tooltip pac unidadMedida}
+		</div>
+	</div>
+</div>
+</div>
+{END unidadMedida_fieldblock}
+
+			{BEGIN cantidadUnidadMedida_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_cantidadUnidadMedida}" data-fieldname="cantidadUnidadMedida" data-signal-error-for="cantidadUnidadMedida{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_cantidadUnidadMedida}">
+		{BEGIN cantidadUnidadMedida_label}{$label pac cantidadUnidadMedida}{END cantidadUnidadMedida_label}
+	</label>
+	<div class="col-md-6" >
+		{$cantidadUnidadMedida_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="cantidadUnidadMedida">
+		<div class="text-muted" >
+		{$tooltip pac cantidadUnidadMedida}
+		</div>
+	</div>
+</div>
+</div>
+{END cantidadUnidadMedida_fieldblock}
+
+			{BEGIN mes_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_mes}" data-fieldname="mes" data-signal-error-for="mes{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_mes}">
+		{BEGIN mes_label}{$label pac mes}{END mes_label}
+	</label>
+	<div class="col-md-6" >
+		{$mes_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="mes">
+		<div class="text-muted" >
+		{$tooltip pac mes}
+		</div>
+	</div>
+</div>
+</div>
+{END mes_fieldblock}
+
+			{BEGIN cuatrimerstre_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_cuatrimerstre}" data-fieldname="cuatrimerstre" data-signal-error-for="cuatrimerstre{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_cuatrimerstre}">
+		{BEGIN cuatrimerstre_label}{$label pac cuatrimerstre}{END cuatrimerstre_label}
+	</label>
+	<div class="col-md-6" >
+		{$cuatrimerstre_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="cuatrimerstre">
+		<div class="text-muted" >
+		{$tooltip pac cuatrimerstre}
+		</div>
+	</div>
+</div>
+</div>
+{END cuatrimerstre_fieldblock}
+
+			{BEGIN descripcionCuatrimestre_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_descripcionCuatrimestre}" data-fieldname="descripcionCuatrimestre" data-signal-error-for="descripcionCuatrimestre{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_descripcionCuatrimestre}">
+		{BEGIN descripcionCuatrimestre_label}{$label pac descripcionCuatrimestre}{END descripcionCuatrimestre_label}
+	</label>
+	<div class="col-md-6" >
+		{$descripcionCuatrimestre_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="descripcionCuatrimestre">
+		<div class="text-muted" >
+		{$tooltip pac descripcionCuatrimestre}
+		</div>
+	</div>
+</div>
+</div>
+{END descripcionCuatrimestre_fieldblock}
+
+			{BEGIN solicitante_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_solicitante}" data-fieldname="solicitante" data-signal-error-for="solicitante{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_solicitante}">
+		{BEGIN solicitante_label}{$label pac solicitante}{END solicitante_label}
+	</label>
+	<div class="col-md-6" >
+		{$solicitante_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="solicitante">
+		<div class="text-muted" >
+		{$tooltip pac solicitante}
+		</div>
+	</div>
+</div>
+</div>
+{END solicitante_fieldblock}
+
+			{BEGIN tipoDeCompra_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_tipoDeCompra}" data-fieldname="tipoDeCompra" data-signal-error-for="tipoDeCompra{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_tipoDeCompra}">
+		{BEGIN tipoDeCompra_label}{$label pac tipoDeCompra}{END tipoDeCompra_label}
+	</label>
+	<div class="col-md-6" >
+		{$tipoDeCompra_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="tipoDeCompra">
+		<div class="text-muted" >
+		{$tooltip pac tipoDeCompra}
+		</div>
+	</div>
+</div>
+</div>
+{END tipoDeCompra_fieldblock}
+
+			{BEGIN renglon_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_renglon}" data-fieldname="renglon" data-signal-error-for="renglon{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_renglon}">
+		{BEGIN renglon_label}{$label pac renglon}{END renglon_label}
+	</label>
+	<div class="col-md-6" >
+		{$renglon_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="renglon">
+		<div class="text-muted" >
+		{$tooltip pac renglon}
+		</div>
+	</div>
+</div>
+</div>
+{END renglon_fieldblock}
+
+			{BEGIN codigoSiges_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_codigoSiges}" data-fieldname="codigoSiges" data-signal-error-for="codigoSiges{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_codigoSiges}">
+		{BEGIN codigoSiges_label}{$label pac codigoSiges}{END codigoSiges_label}
+	</label>
+	<div class="col-md-6" >
+		{$codigoSiges_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="codigoSiges">
+		<div class="text-muted" >
+		{$tooltip pac codigoSiges}
+		</div>
+	</div>
+</div>
+</div>
+{END codigoSiges_fieldblock}
+
+			{BEGIN codigopresentacion_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_codigopresentacion}" data-fieldname="codigopresentacion" data-signal-error-for="codigopresentacion{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_codigopresentacion}">
+		{BEGIN codigopresentacion_label}{$label pac codigopresentacion}{END codigopresentacion_label}
+	</label>
+	<div class="col-md-6" >
+		{$codigopresentacion_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="codigopresentacion">
+		<div class="text-muted" >
+		{$tooltip pac codigopresentacion}
+		</div>
+	</div>
+</div>
+</div>
+{END codigopresentacion_fieldblock}
+
+
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_buttons}
+<div {$buttons_chiddenattr} data-pageid="{$pageid}" data-container="buttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-3 col-md-offset-3"> 
+
+{BEGIN editbuttons}
+	{BEGIN save_button}
+	<button class="btn btn-primary" {$savebutton_attrs}>Save</button>
+	{END save_button}
+	{BEGIN back_button}
+		<button class="btn btn-default" {$backbutton_attrs}>Back to list</button>
+	{END back_button}
+	{BEGIN close_button}
+	<a href="#" class="btn btn-default" {$closebutton_attrs}>Cancel</a>
+	{END close_button}
+
+{END editbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+
+
+{BEGIN container_leftbuttons_1}
+<div {$leftbuttons_1_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons_1" class="  text-right col-md-3 "> 
+
+{BEGIN righteditbuttons}
+<div class="btn-group" role="group">
+
+	{BEGIN prev_button}
+	<button class="btn btn-default {$prevbutton_class}" {$prevbutton_attrs}><span class="glyphicon glyphicon-chevron-left"></span></button>
+	{END prev_button}
+	{BEGIN next_button}
+	<button class="btn btn-default  {$nextbutton_class}" {$nextbutton_attrs}><span class="glyphicon glyphicon-chevron-right"></span></button>
+	{END next_button}
+	<div class="btn-group dropup" role="group">
+		<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+		<ul class="dropdown-menu dropdown-left">
+			{BEGIN reset_button}
+				<li><a href="#" {$resetbutton_attrs}>Reset</a></li>
+			{END reset_button}
+			{BEGIN view_page_button}
+				<li><a href="#" {$view_page_button_attrs}>View</a></li>
+			{END view_page_button}
+		</ul>
+	</div>
+</div>
+{END righteditbuttons}
+
+
+
+</div>
+{END container_leftbuttons_1}
+
+
+
+
+
+
+</div>
+{END container_buttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

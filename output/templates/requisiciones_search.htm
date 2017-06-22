@@ -1,0 +1,351 @@
+<!doctype html><p align=center><font size=+1 color=red>This website was created by evaluation version of PHPRunner Trial.</font></p>
+<p align=center><font size=+1 color=red>This warning message will not appear on website created by a paid-for version of PHPRunner Trial.</font></p>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_searchpage}
+<div {$searchpage_chiddenattr} data-pageid="{$pageid}" data-container="searchpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN searchheader}
+	<h2 {$bssearchheader_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchheader" >{$pagetitlelabel requisiciones search}</h2>
+
+{END searchheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_searchpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$bssearchfields_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchfields" class="form-horizontal" role="form">
+<div class="container">
+	<div class="form-group">
+		<div class="col-md-12" >
+			&nbsp;
+		</div>
+	</div>
+</div>
+	{BEGIN ID_fieldblock}		
+	<div class="container {$fielddispclass_ID}" data-fieldname="ID">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones ID}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_ID}
+			</div>
+			<div class="col-md-4" >
+				{$ID_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$ID_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END ID_fieldblock}
+	{BEGIN area_fieldblock}		
+	<div class="container {$fielddispclass_area}" data-fieldname="area">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones area}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_area}
+			</div>
+			<div class="col-md-4" >
+				{$area_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$area_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END area_fieldblock}
+	{BEGIN jefatura_fieldblock}		
+	<div class="container {$fielddispclass_jefatura}" data-fieldname="jefatura">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones jefatura}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_jefatura}
+			</div>
+			<div class="col-md-4" >
+				{$jefatura_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$jefatura_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END jefatura_fieldblock}
+	{BEGIN gestionSiges_fieldblock}		
+	<div class="container {$fielddispclass_gestionSiges}" data-fieldname="gestionSiges">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones gestionSiges}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_gestionSiges}
+			</div>
+			<div class="col-md-4" >
+				{$gestionSiges_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$gestionSiges_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END gestionSiges_fieldblock}
+	{BEGIN correlativo_fieldblock}		
+	<div class="container {$fielddispclass_correlativo}" data-fieldname="correlativo">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones correlativo}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_correlativo}
+			</div>
+			<div class="col-md-4" >
+				{$correlativo_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$correlativo_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END correlativo_fieldblock}
+	{BEGIN fechaRequisicion_fieldblock}		
+	<div class="container {$fielddispclass_fechaRequisicion}" data-fieldname="fechaRequisicion">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones fechaRequisicion}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_fechaRequisicion}
+			</div>
+			<div class="col-md-4" >
+				{$fechaRequisicion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$fechaRequisicion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END fechaRequisicion_fieldblock}
+	{BEGIN cantidadSolicitada_fieldblock}		
+	<div class="container {$fielddispclass_cantidadSolicitada}" data-fieldname="cantidadSolicitada">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones cantidadSolicitada}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_cantidadSolicitada}
+			</div>
+			<div class="col-md-4" >
+				{$cantidadSolicitada_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$cantidadSolicitada_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END cantidadSolicitada_fieldblock}
+	{BEGIN unidadDeMedida_fieldblock}		
+	<div class="container {$fielddispclass_unidadDeMedida}" data-fieldname="unidadDeMedida">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones unidadDeMedida}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_unidadDeMedida}
+			</div>
+			<div class="col-md-4" >
+				{$unidadDeMedida_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$unidadDeMedida_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END unidadDeMedida_fieldblock}
+	{BEGIN descripcion_fieldblock}		
+	<div class="container {$fielddispclass_descripcion}" data-fieldname="descripcion">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones descripcion}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_descripcion}
+			</div>
+			<div class="col-md-4" >
+				{$descripcion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$descripcion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END descripcion_fieldblock}
+	{BEGIN codigoInsumo_fieldblock}		
+	<div class="container {$fielddispclass_codigoInsumo}" data-fieldname="codigoInsumo">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones codigoInsumo}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_codigoInsumo}
+			</div>
+			<div class="col-md-4" >
+				{$codigoInsumo_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$codigoInsumo_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END codigoInsumo_fieldblock}
+	{BEGIN codigoPresentacion_fieldblock}		
+	<div class="container {$fielddispclass_codigoPresentacion}" data-fieldname="codigoPresentacion">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones codigoPresentacion}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_codigoPresentacion}
+			</div>
+			<div class="col-md-4" >
+				{$codigoPresentacion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$codigoPresentacion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END codigoPresentacion_fieldblock}
+	{BEGIN existenciasAlmacen_fieldblock}		
+	<div class="container {$fielddispclass_existenciasAlmacen}" data-fieldname="existenciasAlmacen">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label requisiciones existenciasAlmacen}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_existenciasAlmacen}
+			</div>
+			<div class="col-md-4" >
+				{$existenciasAlmacen_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$existenciasAlmacen_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END existenciasAlmacen_fieldblock}
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-3 col-md-offset-4"> 
+
+{BEGIN searchbuttons}
+{BEGIN search_button}
+<button class="btn btn-primary" {$searchbutton_attrs}>Search</button>
+{END search_button} 
+{BEGIN reset_button}
+<button class="btn btn-default" {$resetbutton_attrs}>Reset</button>
+{END reset_button}
+{BEGIN back_button}
+<button class="btn btn-default" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{END searchbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

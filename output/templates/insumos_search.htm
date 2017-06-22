@@ -1,0 +1,279 @@
+<!doctype html><p align=center><font size=+1 color=red>This website was created by evaluation version of PHPRunner Trial.</font></p>
+<p align=center><font size=+1 color=red>This warning message will not appear on website created by a paid-for version of PHPRunner Trial.</font></p>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_searchpage}
+<div {$searchpage_chiddenattr} data-pageid="{$pageid}" data-container="searchpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN searchheader}
+	<h2 {$bssearchheader_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchheader" >{$pagetitlelabel insumos search}</h2>
+
+{END searchheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_searchpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$bssearchfields_hiddenattr} data-pageid="{$pageid}" data-brick="bssearchfields" class="form-horizontal" role="form">
+<div class="container">
+	<div class="form-group">
+		<div class="col-md-12" >
+			&nbsp;
+		</div>
+	</div>
+</div>
+	{BEGIN ID_fieldblock}		
+	<div class="container {$fielddispclass_ID}" data-fieldname="ID">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos ID}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_ID}
+			</div>
+			<div class="col-md-4" >
+				{$ID_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$ID_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END ID_fieldblock}
+	{BEGIN renglon_fieldblock}		
+	<div class="container {$fielddispclass_renglon}" data-fieldname="renglon">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos renglon}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_renglon}
+			</div>
+			<div class="col-md-4" >
+				{$renglon_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$renglon_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END renglon_fieldblock}
+	{BEGIN codigo_insumo_fieldblock}		
+	<div class="container {$fielddispclass_codigo_insumo}" data-fieldname="codigo_insumo">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos codigo_insumo}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_codigo_insumo}
+			</div>
+			<div class="col-md-4" >
+				{$codigo_insumo_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$codigo_insumo_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END codigo_insumo_fieldblock}
+	{BEGIN nombre_fieldblock}		
+	<div class="container {$fielddispclass_nombre}" data-fieldname="nombre">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos nombre}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_nombre}
+			</div>
+			<div class="col-md-4" >
+				{$nombre_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$nombre_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END nombre_fieldblock}
+	{BEGIN caracteristicas_fieldblock}		
+	<div class="container {$fielddispclass_caracteristicas}" data-fieldname="caracteristicas">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos caracteristicas}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_caracteristicas}
+			</div>
+			<div class="col-md-4" >
+				{$caracteristicas_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$caracteristicas_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END caracteristicas_fieldblock}
+	{BEGIN nombre_de_la_presentacion_fieldblock}		
+	<div class="container {$fielddispclass_nombre_de_la_presentacion}" data-fieldname="nombre_de_la_presentacion">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos nombre_de_la_presentacion}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_nombre_de_la_presentacion}
+			</div>
+			<div class="col-md-4" >
+				{$nombre_de_la_presentacion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$nombre_de_la_presentacion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END nombre_de_la_presentacion_fieldblock}
+	{BEGIN cantidad_y_unidad_fieldblock}		
+	<div class="container {$fielddispclass_cantidad_y_unidad}" data-fieldname="cantidad_y_unidad">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos cantidad_y_unidad}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_cantidad_y_unidad}
+			</div>
+			<div class="col-md-4" >
+				{$cantidad_y_unidad_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$cantidad_y_unidad_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END cantidad_y_unidad_fieldblock}
+	{BEGIN codigo_de_presentacion_fieldblock}		
+	<div class="container {$fielddispclass_codigo_de_presentacion}" data-fieldname="codigo_de_presentacion">
+		<div class="form-group">
+			<div class="col-md-2">
+				{$label insumos codigo_de_presentacion}
+			</div>
+			<div class="col-md-2" >
+				{$searchtype_codigo_de_presentacion}
+			</div>
+			<div class="col-md-4" >
+				{$codigo_de_presentacion_editcontrol}
+			</div>
+			<div class="col-md-4" >
+				{$codigo_de_presentacion_editcontrol1}
+			</div>
+		</div>
+	</div>
+{END codigo_de_presentacion_fieldblock}
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-3 col-md-offset-4"> 
+
+{BEGIN searchbuttons}
+{BEGIN search_button}
+<button class="btn btn-primary" {$searchbutton_attrs}>Search</button>
+{END search_button} 
+{BEGIN reset_button}
+<button class="btn btn-default" {$resetbutton_attrs}>Reset</button>
+{END reset_button}
+{BEGIN back_button}
+<button class="btn btn-default" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{END searchbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
